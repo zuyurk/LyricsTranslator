@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyrics Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+         <ul>
+             <li><a href="index.html">My Project</a></li>
+             <li><a href="demo.html">Demo</a></li>
+             <li><a href="aboutme.html">About Me</a></li>
+         </ul>
+     </nav>
+    <div class="container">
+        <h1>Lyrics Translator</h1>
+        <form id="lyricsForm">
+            <input type="text" id="track" placeholder="Song Title" required>
+            <input type="text" id="artist" placeholder="Artist Name" required>
+            <button type="submit">Get Lyrics and Translate</button>
+        </form>
+        <div id="results">
+            <div id="originalLyrics">
+                <h2>Original Lyrics</h2>
+                <p id="lyricsText">No lyrics available</p>
+            </div>
+            <div id="translatedLyrics">
+                <h2>Translated Lyrics</h2>
+                <p id="translatedText">No translation available</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
